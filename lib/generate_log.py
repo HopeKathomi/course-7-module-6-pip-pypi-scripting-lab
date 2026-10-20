@@ -24,6 +24,6 @@ def generate_log(data):
     return filename
 
 if __name__ == "__main__":
-    data = ["User logged in", "Report exported"]
+    # data = ["User logged in", "Report exported"]
     filename = generate_log(data)
     print(f"Log written to {filename}")
