@@ -15,7 +15,7 @@ def generate_log(data):
     # Step 3: Write each entry to the file
     with open(filename, "w") as file:
         for entry in data:
-            file.write(f"{entry}\n")
+            file.write(f"[{today}] - {entry}\n")
 
     # Step 4: Print a confirmation message
     print(f"Log written to {filename}")
