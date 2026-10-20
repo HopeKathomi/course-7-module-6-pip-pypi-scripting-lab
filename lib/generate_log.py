@@ -18,5 +18,6 @@ def generate_log(data):
 
     return filename
 
-data = ["User logged in", "Report exported"]
-generate_log(data)
+if __name__ == "__main__":
+    data = ["User logged in", "Report exported"]
+    generate_log(data)
